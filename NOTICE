@@ -1,0 +1,7 @@
+FakeCoding
+
+Copyright 2026 FakeCoding contributors.
+
+FakeCoding preserves the `agent_nonsense` Python import path and the
+`agent-nonsense` command for compatibility with the original FakeToken
+upstream project.

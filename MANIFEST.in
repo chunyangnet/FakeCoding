@@ -1,0 +1,13 @@
+include CHANGELOG.md
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+include LICENSE
+include NOTICE
+include README.md
+include SECURITY.md
+recursive-include agent_nonsense *.json
+recursive-include agent_nonsense/web *
+recursive-include web *.json *.ts *.tsx *.css *.html *.svg
+prune web/node_modules
+recursive-include docs *.md
+recursive-include tests *.py
